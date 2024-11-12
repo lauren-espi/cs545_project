@@ -1,0 +1,11 @@
+[
+    {
+        "recipeId": "veal",
+        "recipeName": "Veal Marsala",
+        "allergens_free":["dairy", "egg", "fish", "gluten", "peanut", "shellfish", "soy", "tree nut", "wheat"],
+        "place": "Italian",
+        "ingredients": [ "1 lb veal scallopine (cutlet)", "3/4 teaspoon salt", "1/4 teaspoon pepper", "3/4 cup potato flour (starch)", "1/4 cup grapeseed oil", "2 cloves garlic chopped", "16 ounces mushrooms sliced", "1 cup dry Marsala wine", "2 tablespoons tapioca flour", "1/4 cup beef stock", "2 tablespoons fresh chopped parsley"], 
+        "instructions":[],
+        "image_url":, 
+    }
+]
