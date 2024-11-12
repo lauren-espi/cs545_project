@@ -3,9 +3,176 @@
         "recipeId": "veal",
         "recipeName": "Veal Marsala",
         "allergens_free":["dairy", "egg", "fish", "gluten", "peanut", "shellfish", "soy", "tree nut", "wheat"],
-        "place": "Italian",
-        "ingredients": [ "1 lb veal scallopine (cutlet)", "3/4 teaspoon salt", "1/4 teaspoon pepper", "3/4 cup potato flour (starch)", "1/4 cup grapeseed oil", "2 cloves garlic chopped", "16 ounces mushrooms sliced", "1 cup dry Marsala wine", "2 tablespoons tapioca flour", "1/4 cup beef stock", "2 tablespoons fresh chopped parsley"], 
-        "instructions":[],
-        "image_url":, 
+        "place": "Italy",
+        "ingredients": ["1 lb veal scallopine (cutlet)", "3/4 teaspoon salt", "1/4 teaspoon pepper", "3/4 cup potato flour (starch)", "1/4 cup grapeseed oil", "2 cloves garlic chopped", "16 ounces mushrooms sliced", "1 cup dry Marsala wine", "2 tablespoons tapioca flour", "1/4 cup beef stock", "2 tablespoons fresh chopped parsley"], 
+        "instructions":[
+            "Sprinkle the veal cutlets with salt and pepper. Dredge each slice in potato flour and shake off the excess.",
+            "Heat the grapeseed oil in a heavy large skillet over medium-high heat. Add the veal cutlets and cook until golden brown, about 2 minutes per side. Transfer the veal to a plate and cover with foil.",
+            "Add the garlic to the skillet and saute until fragrant, about 1 minute. If necessary, add another tablespoon of oil. Add the mushrooms and saute until tender, about 3 to 5 minutes.",
+            "Add the Marsala wine and simmer about 3 minutesor until liquid reduces by about half.",
+            "Meanwhile, whisk the tapioca starch into the beef stock until dissolved. Add to the skillet and continue to simmer until sauce begins to thicken.",
+            "Return veal to the pan and continue to cook untilthe veal is heated through, about 1 to 2 minutes.",
+            "To serve, place a piece of veal on a plate and spoon the sauce over the veal. Garnish with a sprig of fresh parsley."
+        ],
+        "image_url":"https://www.eatingwithfoodallergies.com/wp-content/uploads/2020/08/Veal-marsala-1.png"
+    },
+
+    {
+        "recipeId": "millet",
+        "recipeName": "Millet with Red Kidney Beans",
+        "allergens_free": ["gluten"],
+        "place": "Jamaica",
+        "ingredients": ["1 tablespoon olive oil",
+            "2 garlic cloves minced",
+            "1 teaspoon fresh chives chopped",
+            "1 tablespoon fresh parsley chopped",
+            "1/2 onion minced",
+            "2 - 3 whole cloves",
+            "1 fresh thyme sprig",
+            "3 1/2 cups water",
+            "2 cups millet washed",
+            "3/4 cup cooked red kidney beans with 1 cup beans broth (warm)",
+            "Salt and pepper to taste",
+            "1 - 2 tablespoons Tomato paste (optional)"
+        ],
+        "instructions": ["Heat oil in a heavy bottom pan. Add garlic, chives, parsley, onion, cloves and thyme and fry for 2 – 3 minutes stirring.",
+            "Add tomato paste if using before adding water (let tomato paste cook with spices). Add water and bring to boil.",
+            "In the meantime, rinse millet under cold running water. When water starts to boil, add millet, stir, and season with salt and pepper and let cook over medium heat.", 
+            "When water has almost evaporated, add cooked beans with its broth gently stir and continue to cook. Check seasoning and add additional salt and pepper.",
+            "When all the water evaporates, lower heat, cover and cook for 45 minutes to 1 hour, gently stirring millet mixture occasionally.",
+            "Let millet cook completely before serving. Serve with seafood, poultry or meat of your choice."
+        ],
+        "image_url": "https://www.caribbeangreenliving.com/wp-content/uploads/2014/11/DSC03775-e1416658860262-2-370x370.jpg"
+    },
+
+    {
+        "recipeId": "shepardsPie",
+        "recipeName": "Shepherd's Pie",
+        "allergens_free": ["vegan"],
+        "place": "United Kingdom",
+        "ingredients": [ "1 medium onion chopped, about 3/4 cup",
+            "2 cloves garlic minced",
+            "2 Tablespoons vegan buttery spread",
+            "1 1/4 cups green lentils picked over and rinsed",
+            "4 cups water",
+            "2 Tablespoons ketchup",
+            "10 white button mushrooms sliced",
+            "1 cup sliced carrots",
+            "1 cup frozen peas",
+            "1 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "1/2 teaspoon paprika",
+            "1/2 teaspoon Italian seasoning",
+            "1/4 teaspoon garlic powder",
+            "8 Yukon Gold potatoes for about 5 cups chopped potatoes",
+            "1/3 cup non-dairy milk",
+            "4 Tablespoons vegan buttery spread",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "fresh parsley"
+        ],
+        "instructions": [
+            "Preheat the oven to 425 degrees Fahrenheit.",
+            "Put the lentils and water in a large pot, and bring to a boil. Reduce heat to a simmer, and cook until the lentils are tender, about 20-25 minutes.",
+            "While the lentils cook, you can cook the other veggies. In a large skillet, cook the onions, garlic, sliced carrots, and mushrooms in the vegan buttery spread. Cook over medium heat, stirring often, until they are tender. This should take about 15-20 minutes.",
+            "If you have not prepared the mashed potatoes ahead of time, you can do that while everything is cooking. Peel and slice the potatoes, and put them in a pot with enough water to cover them. Bring to a boil, and boil until tender, about 15 minutes. Drain the potatoes and add 4 Tablespoons vegan buttery spread, non-dairy milk, salt, and pepper to the pot. Use a potato masher or mixer to mash the potatoes. Set aside.",
+            "Check the liquid level on the lentil mixture - the liquid should be mostly absorbed, but there should still be some in the pot - the lentils should not be dried out.",
+            "Once the lentils are tender, add the ketchup, frozen peas, salt, pepper, paprika, Italian seasoning, and garlic powder. Cook over medium heat for about 5 minutes, adding a bit more water if needed.",
+            "Once everything is heated through, spread the lentil mixture into a 9x13 casserole dish. Top with the mashed potatoes, and use a spatula to spread them out evenly.",
+            "Dot the top of the casserole with a little more vegan buttery spread if desired.",
+            "Bake at 425 degrees F for about 15-20 minutes, just to let the potatoes get a little golden brown.",
+            "Remove from the oven and top with fresh parsley if desired. Enjoy!"
+
+        ],
+        "image_url": "https://theprettybee.com/wp-content/uploads/2023/10/vegan-lentil-shepherds-pie.jpg"
+    },
+
+    {
+        "recipeId": "pancit",
+        "recipeName": "Pancit Palabok",
+        "allergens_free": ["vegan", "gluten"],
+        "place": "Philippines",
+        "ingredients": [
+            "1 package (16oz) cornstarch noodles. I used the brand, Super Q.",
+            "6 cups water or more if sauce gets too thick",
+            "3/4 cup potato flour (not potato starch!)",
+            "1 1/2 tablespoon annatto powder dissolved in 1/4 cup water",
+            "1/2 cup nutritional yeast",
+            "1 1/2 - 2 teaspoons sea salt",
+            "2 teaspoons black salt/kala namak",
+            "1/2 teaspoon garlic powder",
+            "1/2 teaspoon onion powder",
+            "a pinch of black pepper",
+            "3 tablespoons oil",
+            "4 garlic cloves, peeled, crushed, and minced",
+            "1 yellow onion, peeled and diced",
+            "3/4 cup julienne/cut into matchsticks carrots",
+            "3/4 cup thinly sliced diagonally green beans",
+            "1 1/2 cup fried tofu cubes",
+            "salt and pepper to taste",
+            "1 tablespoon sliced green onions",
+            "1 tablespoon fried crushed garlic"
+        ],
+        "instructions": [
+            "Soak noodles in a container of warm water for 20-30 minutes.",
+            "Whisk water, potato flour, and annatto powder until fully dissolved. Pour mixture and the rest of the broth ingredients in a medium-sized pot. Mix well. Simmer for about ten minutes or until the annatto powder loses its earthy taste. Add a bit more water if sauce gets too thick to mix. Put to a boil then turn off heat.",
+            "On a medium-sized pan, saute garlic and onion with oil until onion has turned translucent.",
+            "Add carrots, green beans, and tofu. Season with salt and pepper. Cook for another 3-5 minutes then turn off heat.",
+            "Transfer sautéed vegetables into the pot of broth. Mix well. Adjust sea salt and black salt to taste. It should taste saltier than preferred because you'll be mixing it later with bland noodles.",
+            "Speaking of noodles, boil a pot of water. Cook the noodles then drain using a colander. If using a different kind of noodles, please follow the package directions."
+
+        ],
+        "image_url": "https://i0.wp.com/www.astigvegan.com/wp-content/uploads/2015/10/astigvegan-pancit-palabok-improved-version.jpg?w=1456&ssl=1"
+    },
+
+    {
+        "recipeId": "bistek",
+        "recipeName": "Bistek",
+        "allergens_free": ["vegan"],
+        "place": "Philippines",
+        "ingredients": [
+            "3 tablespoons cooking oil (I suggest mixture of canola and olive oil)",
+            "1 russet potato peeled and thinly sliced",
+            "8 pieces portobello mushrooms, sliced into strips",
+            "8 ouces extra-firm tofu, thinly sliced and fried",
+            "1 yellow onion, peeled and cut into rings",
+            "1/4 cup soy sauce (adjust to taste depending on soy sauce brand)",
+            "1 dash lemon juice",
+            "dash of freshly cracked pepper"
+        ],
+        "instructions": [
+            "Heat medium-sized pan over medium heat and pour cooking oil. Once hot, fry potatoes until crisp.",
+            "Remove potatoes and season with salt, pepper, and lemon.",
+            "Fry mushrooms on all sides and season with pepper and lemon juice.",
+            "Add tofu and onions.",
+            "When onions and mushrooms are tender, add potatoes back to the pan.",
+            "Pour soy sauce and adjust seasoning to taste.",
+            "Cook for another 3-5 minutes and turn off heat.",
+            "Serve hot preferably with rice on the side."
+        ],
+        "image_url": "https://i0.wp.com/www.astigvegan.com/wp-content/uploads/2010/06/vegan-bistek-wide-sideview-of-fork.jpg?w=1008&ssl=1"
+    },
+
+    {
+        "recipeId": "champorado",
+        "recipeName": "Champorado",
+        "allergens_free": ["vegan"],
+        "place": "Philippines",
+        "ingredients": [
+            "1 1/2 cup sticky white rice (also known as glutinous rice)",
+            "2 1/2 liter water, plus 1 liter if rice gets too thick",
+            "3/4 cup unsweetened cocoa powder",
+            "3/4 cup organic sugar (or more if desired)",
+            "3/4 cup non-dairy milk, plus more to drizzle for garnish (preferably coconut milk or almond milk)"
+        ],
+        "instructions": [
+            "Boil water in a medium-sized pot.",
+            "Add rice and stir every once in a while to prevent sticking from the bottom of the pot.",
+            "Once the rice has turned soft and mushy, add rest of the ingredients: cocoa powder, sugar and non-dairy milk.",
+            "Adjust seasoning to taste. Add more sugar if desired. Add more water if rice gets too thick.",
+            "Put pot to a boil and turn off heat.",
+            "Transfer to a bowl and drizzle non-dairy milk on top. Serve hot. Alternatively, you could bring to room temperature then refrigerate to serve cold."
+        ],
+        "image_url": ""
     }
 ]
