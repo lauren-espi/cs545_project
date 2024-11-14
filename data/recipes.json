@@ -4,7 +4,7 @@
         "recipeName": "Veal Marsala",
         "allergens_free":["dairy", "egg", "fish", "gluten", "peanut", "shellfish", "soy", "tree nut", "wheat"],
         "place": "Italy",
-        "ingredients": ["1 lb veal scallopine (cutlet)", "3/4 teaspoon salt", "1/4 teaspoon pepper", "3/4 cup potato flour (starch)", "1/4 cup grapeseed oil", "2 cloves garlic chopped", "16 ounces mushrooms sliced", "1 cup dry Marsala wine", "2 tablespoons tapioca flour", "1/4 cup beef stock", "2 tablespoons fresh chopped parsley"], 
+        "ingredients": ["1 lb. veal scallopine (cutlet)", "3/4 teaspoon salt", "1/4 teaspoon pepper", "3/4 cup potato flour (starch)", "1/4 cup grapeseed oil", "2 cloves garlic chopped", "16 ounces mushrooms sliced", "1 cup dry Marsala wine", "2 tablespoons tapioca flour", "1/4 cup beef stock", "2 tablespoons fresh chopped parsley"], 
         "instructions":[
             "Sprinkle the veal cutlets with salt and pepper. Dredge each slice in potato flour and shake off the excess.",
             "Heat the grapeseed oil in a heavy large skillet over medium-high heat. Add the veal cutlets and cook until golden brown, about 2 minutes per side. Transfer the veal to a plate and cover with foil.",
@@ -208,8 +208,8 @@
             "5 tablespoons extra-virgin olive oil",
             "2 teaspoons kosher salt",
             "1/2 teaspoon freshly ground black pepper",
-            "1 lb extra-large shrimp (peeled and deveined)",
-            "1 small fennel bulb (chopped (about 1 cup))",
+            "1 lb. extra-large shrimp (peeled and deveined)",
+            "1 small fennel bulb. (chopped (about 1 cup))",
             "1 small onion (chopped (about 1 cup))",
             "1 large clove garlic (smashed, peeled, chopped)",
             "1 cup Arborio rice (aobut 6 1/2 ounces",
@@ -330,7 +330,7 @@
             "1 cup unsalted butter, cubed and cold (or just grate with a box grater or cheese grater)",
             "1 large egg",
             "1/2 cup cold buttermilk",
-            "3/4 lb ground beef",
+            "3/4 lb. ground beef",
             "1 small sweet onion, diced",
             "1 tablespoon unsalted butter",
             "1 teaspoon dried oregano",
@@ -338,7 +338,7 @@
             "1/2 teaspoon cumin",
             "1 teaspoon minced garlic",
             "1-2 tablespoon ketchup",
-            "1/2 cup shredded cheddar & Colby Jack cheese (1/4 cup of each) - Or whatever cheese you prefer!",
+            "1/2 cup shredded cheddar & Colb.y Jack cheese (1/4 cup of each) - Or whatever cheese you prefer!",
             "1/4 - 1/2 teaspoon salt (more/less, to taste)",
             "1/4 teaspoon black pepper",
             "1 large egg beaten with 1 teaspoon water"
@@ -387,32 +387,547 @@
     },
 
     {
-        "recipeId": "",
-        "recipeName": "",
-        "allergens_free": [],
-        "place": "",
-        "ingredients": [],
-        "instructions": [],
-        "image_url": ""
+        "recipeId": "ropa",
+        "recipeName": "Oyster Mushroom Ropa Vieja",
+        "allergens_free": ["dairy", "egg", "nut", "peanut", "gluten", "soy", "fish", "shellfish"],
+        "place": "Cuba",
+        "ingredients": [
+            "8-ounces oyster mushrooms",
+            "1/2 teaspoon Sazon seasoning",
+            "1/4 cup gluten-free white wine",
+            "1/2 small onion",
+            "1/4 each red, orange and green pepper",
+            "1 clove garlic",
+            "1/2 teaspoon oregano",
+            "1/2 teaspoon smoked paprika",
+            "2 tablespoons tomato paste",
+            "1/2 cup filtered water",
+            "1/4 cup roasted red peppers (homemade or store-bought)",
+            "1/4 cup pitted green olives sliced thinly",
+            "1 tablespoon capers drained",
+            "Handful parsley for garnish"
+        ],
+        "instructions": [
+            "Shred the oyster mushroom from root to cap. Place the mushroom shreds in a dry heated skillet, sprinkle with Sazon seasoning, and cover.",
+            "Cook the shreds on medium heat for 5 minutes. They will release their liquid and start to caramelize.",
+            "Take the cover off the skillet and deglaze the pan with the white wine. Use a wooden spoon to get all of the goodness off the bottom of the pan.",
+            "Remove the mushrooms from the skillet and set aside.",
+            "Slice the onion into half moons and thinly slice the peppers lengthwise, keeping everything about the same size. Add to the pan and season with oregano and smoked paprika. Sauté in oil or water until they start to soften.",
+            "Press the garlic over the onions and peppers. When the garlic is fragrant, add the tomato paste and stir around. Cook for a minute, releasing the flavor of the tomato paste.",
+            "Add the mushrooms back into the pan along with the water. Add the roasted peppers, olives and capers and cook it all together until the sauce is thick and smells delicious.",
+            "Serve over rice and garnish with freshly chopped parsley (to make the rice like the photo, just add a splash of olive oil in a pot and a few shakes of turmeric. Toss the dry rice around until it is all coated, add water and cook until done)."
+        ],
+        "image_url": "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2018/02/img_1176-3.jpg?w=1600&ssl=1"
     },
 
     {
-        "recipeId": "",
-        "recipeName": "",
-        "allergens_free": [],
-        "place": "",
-        "ingredients": [],
-        "instructions": [],
-        "image_url": ""
+        "recipeId": "butterChicken",
+        "recipeName": "Butter Chicken",
+        "allergens_free": ["dairy", "egg", "nut", "peanut", "soy"],
+        "place": "India",
+        "ingredients": [
+            "2 large Skinless Chicken Breasts (cubed)",
+            "1/2 cup Unsweetened Coconut Yogurt",
+            "1 teaspoon Lemon Juice",
+            "1 Sshallot (chopped)",
+            "1 teaspoon Minced Garlic",
+            "1 teaspoon Garam Masala",
+            "1 teaspoon Chili Powder",
+            "1/2 teaspoon Cinnamon",
+            "1/2 teaspoon Turmeric",
+            "1/2 teaspoon Cumin",
+            "1/2 teaspoon Ground Ginger",
+            "1/2 teaspoon Paprika",
+            "1/4 teaspoon Black Pepper",
+            "2 tablespoon Melt Organic Butter",
+            "1/2 cup Plain Tomato Sauce",
+            "1/4 cup Full-Fat Canned Coconut Milk",
+            "1 tablespoon Tomato Paste",
+            "1 tablespoon Arrowroot Starch"
+        ],
+        "instructions": [
+            "In a large bowl, combine the cubed chicken, coconut yogurt, lemon juice, and all the spices. Mix to coat and let marinate in the fridge for 2-3 hours.",
+            "In a large seasoned cast iron skillet, heat the skillet with the 2 tablespoons of butter before adding the marinated chicken and yogurt mixture straight into the hot skillet.",
+            "Saute the chicken, cooking over high heat for about 10 minutes.",
+            "Now add the tomato sauce, tomato paste, coconut milk, and starch to the cooking chicken.",
+            "Mix everything together in the skillet and continue to cook the butter chicken for another 8-10 minutes until the sauce has thickened and the chicken is thoroughly cooked through."
+        ],
+        "image_url": "https://strengthandsunshine.com/wp-content/uploads/2018/08/Indian-Butter-Chicken-4.jpg"
     },
 
     {
-        "recipeId": "",
-        "recipeName": "",
-        "allergens_free": [],
-        "place": "",
-        "ingredients": [],
-        "instructions": [],
-        "image_url": ""
+        "recipeId": "curry",
+        "recipeName": "Curry",
+        "allergens_free": ["dairy", "egg", "nut", "peanut", "soy", "gluten", "fish", "shellfish"],
+        "place": "India",
+        "ingredients": [
+            "1 head of cauliflower (or other vegetables of choice)",
+            "3 big potatoes",
+            "1 big white onion",
+            "4 tablespoon (sunflower) seed oil",
+            "6 tablespoon white wine",
+            "2/3 tablespoon curry mix powder (or start with less and add to taste)",
+            "1 liter rice (or other gluten free) milk",
+            "1 tablespoon gluten free rice flour",
+            "salt to taste"
+        ],
+        "instructions": [
+            "Dice the cauliflower (or other vegetable of choice), the potatoes and the onion into small pieces",
+            "In a saucepan add the seed oil, heat it up a couple minutes then add the diced onion and let it cook for 3-4 minutes",
+            "Add the white wine and let it cook at medium heat for another 3-4 minutes",
+            "Add the cauliflower and the potatoes and thouroughly stir everything",
+            "Add the curry powder and stir again",
+            "Add all the veg milk, stir everything and let it simmer partly covered with a lid, at medium heat, for 35-40 minutes or until the veggies are cooked and the curry is creamy",
+            "To make the curry even creamier, add 1 tablespoon of white rice flour and stir",
+            "Add salt to taste and let the curry simmer another 5 minutes."
+        ],
+        "image_url": "https://sweetsensitivefree.com/wp-content/uploads/2019/01/DSC_0043-1.jpg"
+    },
+
+    {
+        "recipeId": "masala",
+        "recipeName": "Channa Masala",
+        "allergens_free": ["dairy", "egg", "nut", "peanut", "soy", "gluten", "fish", "shellfish"],
+        "place": "India",
+        "ingredients": [
+            "1 bag of 365 brand Organic dried chic peas (or 5 cans cooked)",
+            "1 can of organic fire roasted crushed tomatoes",
+            "1 can of organic tomato sauce",
+            "1 medium organic onion, diced",
+            "4 tbsp Spicely Organic Garam Masala",
+            "2 rapunzel Vegetable bouillon (sea salt & herb)",
+            "2 tablespoon Organic High Heat Oil (Safflower, Grapeseed, Canola)",
+            "1 tablespoon Raw Vegan Sugar",
+            "2 teaspoon fresh ginger, minced (or 1 tsp Spicely Organic powdered ginger)",
+            "2 teaspoon Spicely Organic powdered tumeric",
+            "water (for cooking chic peas)"
+        ],
+        "instructions": [
+            "Drain the soaking water off the chic-peas and place into a dutch oven with enough filtered water to cover by one inch, 2 teaspoons of salt, and 1/4 teaspoon of baking soda. Place on medium high heat until the peas come to a boil, then reduce to medium to medium low (a steady simmer). Cook for 30-45 minutes, until cooked through. You will simply test by eating one after 30 minutes of cooking time. If you have never cooked from scratch before, the baking soda will cause a foam to appear on top. Just skim off with a large spoon and continue cooking. This helps prevent gasiness.",
+            "While the chic peas are cooking, dice your onion and grate your ginger.",
+            "When the chic peas are cooked, drain and place in a metal or glass bowl to the side.",
+            "In a dutch oven, bring your oil to heat. Add the diced onion and saute until the onions begin to caramelize (turn golden and transparent). Add the garam masala and stir for 30 seconds. Add the canned tomatoes, the bouillon, ginger, sugar, and tumeric. Allow to simmer until the bouillon dissolves.",
+            "Add the 5 cans of chic peas (drained), or 10 cups cooked and allow to simmer on low for 10-15 minutes, stirring often. Turn off and allow to rest for 10 minutes. Serve over a bed of Basmati Rice"
+        ],
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSICtGlnW4mA68MXMryMdKimHy6bYpVHESKpQ&s"
+    },
+
+    {
+        "recipeId": "wellington",
+        "recipeName": "Beef Wellington",
+        "allergens_free": ["dairy", "egg", "nut", "peanut", "soy", "fish", "shellfish"],
+        "place": "France",
+        "ingredients": [
+            "1 rolled puff pastry (not sweet)",
+            "1 roast beef around 2 lb.s",
+            "300 g button mushrooms - about 4 cups",
+            "2 egg yolks - used separately",
+            "1 large spoon of sour cream or crème fraîche",
+            "30 grams of butter, or a couple tablespoons",
+            "1/4 onion",
+            "2 tablespoons Dijon mustard",
+            "salt, pepper, thyme to taste",
+            "olive oil for frying"
+        ],
+        "instructions": [
+            "First remove any strings from the meat and fry it on a very hot skillet with some olive oil. No more than a minute on each of its four sides.",
+            "Let it drain and cool, then sprinkle all sides with salt, pepper (just one side), & thyme.",
+            "Chop a quarter-onion and stir-fry it in the skillet which held the meat.",
+            "Wash and slice the mushrooms. Add the butter, then the mushrooms to the pan.",
+            "Mix the sour cream and egg yolk and add that. There should be no liquid in the mushroom mix.",
+            "Purée the mushrooms and let them cool.",
+            "Take a baking sheet and lay parchment paper on top, sprinkle with flour.",
+            "Spread ⅓ of the cooled mushrooms on top of that.",
+            "Place the meat on top and cover it with Dijon mustard.",
+            "Spread the rest of the mushrooms on all sides of the meat.",
+            "Fold the dough over it on all sides and pinch the dough together with milk.",
+            "Cut off any extra and fill in the empty spaces with dough, and turn the dish over.",
+            "If you have enough dough for decorations, do that and attach it with milk.",
+            "Otherwise, brush yolk over the whole thing.",
+            "Preheat the oven to 240°C (475°F).",
+            "Cook the Wellington at that temperature for 10 minutes.",
+            "Turn the oven down to 190°C (375°F) and cook for 25 more minutes. See my post if you think it might be too hot for your oven.",
+            "Serve with wild mushrooms or potatoes or vegetables or all three."
+        ],
+        "image_url": "https://goepicurista.com/wp-content/uploads/2017/11/IMG_2357-e1510956466573.png"
+    },
+
+    {
+        "recipeId": "tomates",
+        "recipeName": "Tomates Farcies",
+        "allergens_free": ["nut", "peanut", "soy", "shellfish"],
+        "place": "France",
+        "ingredients": [
+            "6 tomatoes",
+            "500g (half pound) unseasoned ground sausage",
+            "250g (quarter pound) mushrooms",
+            "1 shallot",
+            "2 cloves garlic",
+            "1/2 tablespoon olive oil",
+            "1 teaspoon salt",
+            "1 teaspoon thyme",
+            "1 tablespoon dijon mustard",
+            "1/4 teaspoont pepper",
+            "1 egg",
+            "1-2 teaspoon Parmesan",
+            "2 cups water",
+            "2 cups wine",
+            "2 cups rice",
+            "1 large chicken bouillon",
+            "1 teaspoon salt"
+        ],
+        "instructions": [
+            "Preheat the oven to 180°C or 375°F",
+            "Clean the tomatoes, remove the top and the insides.",
+            "Lightly salt the inside of the tomatoes.",
+            "Mince the shallots and garlic, and sauté in oil until soft.",
+            "Wash and mince the mushrooms in blender.",
+            "Add all the other stuffing ingredients, except for the Parmesan. Don't forget the shallot-garlic mix that has been cooked.",
+            "Scoop into tomatoes.",
+            "Top with Parmesan and the tomato hat.",
+            "Pour the wine in the pan and put into the oven for 20 minutes.",
+            "During that time, wash the rice and drain. Cook it with the bouillon and water until all the water is absorbed.",
+            "Remove the tomatoes from oven, and mix the rice in with the liquid in the pan. Put it back in the oven for 30 minutes.",
+            "Serve warm."
+        ],
+        "image_url": "https://entertainingwithbeth.com/wp-content/uploads/2020/07/TomateFarciRecipe-735x735.jpg"
+    },
+
+    {
+        "recipeId": "ratatouille",
+        "recipeName": "Ratatouille",
+        "allergens_free": ["dairy", "egg", "nut", "peanut", "soy", "gluten", "fish", "shellfish"],
+        "place": "France",
+        "ingredients": [
+            "1/4 cup extra-virgin olive oil",
+            "2 medium golden beets (about 1/2 pound), peeled and roughly chopped",
+            "3 medium carrots (about 1/2 pound), peeled and roughly chopped",
+            "4 cloves garlic, minced",
+            "1 large yellow onion (about 3/4 pound), peeled and roughly chopped",
+            "1 medium yellow summer squash (about 1/2 pound), chopped",
+            "1 medium zucchini (about 1/2 pound), chopped",
+            "1 tablespoon dried oregano",
+            "1 tablespoon minced fresh rosemary",
+            "1 teaspoon fine sea salt"
+        ],
+        "instructions": [
+            "In a large saucepan, heat olive oil over medium-low heat. Add beets, carrots, and garlic. Cover and cook for 20 minutes, stirring occasionally.",
+            "Add onion, yellow squash, zucchini, oregano, rosemary, and sea salt. Continue cooking, covered, until vegetables are tender, about 20 minutes.",
+            "Check seasoning and adjust salt to taste. Serve hot or cold."
+        ],
+        "image_url": "https://asquirrelinthekitchen.com//wp-content/uploads/2016/06/ratatouille_blog-copy-600x800.jpg"
+    },
+
+    {
+        "recipeId": "sweetAndSour",
+        "recipeName": "Sweet and Sour Fish",
+        "allergens_free": ["nut", "peanut", "dairy", "egg"],
+        "place": "China",
+        "ingredients": [
+            "4 fillets (1.5 to 2 lb.s / 700 to 900 g) white fish , skin-on preferred (catfish, bass, perch, trout, and snapper are suitable)",
+            "1/2 cup cornstarch",
+            "1 teaspoon salt",
+            "1/2 teaspoon white pepper",
+            "1 inch ginger, sliced into thin strips",
+            "4 cloves garlic, sliced",
+            "2 tablespoons shaoxing wine (or dry sherry)",
+            "2 tablespoons soy sauce",
+            "1/2 cup rice vinegar",
+            "1/3 cup sugar",
+            "1/4 cup chili garlic sauce",
+            "1/4 cup water",
+            "1 1/2 tablespoons cornstarch",
+            "Vegetable oil for shallow frying",
+            "1 bell pepper, sliced",
+            "1/4 yellow onion, sliced"
+        ],
+        "instructions": [
+            "Mix the fish coating ingredients in a tray or plate that is large enough to hold one fish fillet.",
+            "Mix the sauce ingredients in a big bowl. Stir to mix well.",
+            "Score the fish by slicing a 1” (2.5 cm) crosshatch pattern across the flesh. If using skin-on fish, cut to the skin but not through it. If using skinless fish, cut through about 2/3 of the fillets so the fillets won't fall apart.",
+            "Prepare a roasting rack over a big tray, for the cooked fish fillets.",
+            "In a deep-sided pan that's large enough to hold one fish fillet, heat 1” (2.5 cm) of oil over medium-high heat until it reaches 375°F (190°C). If you're using smaller fish fillets, you can use as little as 1/2” (1.2 cm) of oil, as long as it covers 2/3 of the fish.",
+            "Only coat as much fish as you can fry at a time. Place the fish skin-side-down in the tray with the cornstarch mixture. Use a spoon to add more mixture on top. Carefully lift the fillet using your hand to shake off the extra cornstarch and make sure there's cornstarch between the diamond cuts.",
+            "As soon as the fish is coated, glenty lay it, flesh-side-down, into the heated oil. Cook without touching until the bottom turns golden, 3 minutes for smaller fish, and 4 minutes or so for larger fish. Flip and cook the other side, for another 2 to 3 minutes.",
+            "Once done, transfer the fillet to the tray lined with the rack to drain the extra oil.",
+            "In a medium-sized frying pan, heat 1 teaspoon of oil over medium heat until hot. Add the ginger and garlic. Stir to release the fragrance, 30 seconds or so.",
+            "Add the onion. Stir a few times.",
+            "Stir the sauce mixture again to thoroughly dissolve the cornstarch and pour it into the pan. Stir and cook to bring the sauce to a boil.",
+            "As soon as the sauce starts to thicken, add the bell peppers. Stir a few times until the sauce thickens. Immediately transfer the sauce into a bowl.",
+            "Plate the fish on a large tray or on individual serving plates. Add the sauce along with the pepper and onion onto each fillet."
+        ],
+        "image_url": "https://omnivorescookbook.com/wp-content/uploads/2020/01/2001_Sweet-And-Sour-Fish_002.jpg"
+    },
+
+    {
+        "recipeId": "loMein",
+        "recipeName": "Lo Mein",
+        "allergens_free": ["nut", "peanut", "dairy", "egg", "shellfish", "fish"],
+        "place": "China",
+        "ingredients": [
+            "1 pound cappelini or angel hair pasta",
+            "2 teaspoons olive oil divided",
+            "1.5 pounds boneless, skinless chicken thighs (approximately 6)",
+            "1/4 cup soy sauce or to taste",
+            "1/4 cup water or reserve pasta cooking water",
+            "2 tablespoons rice vinegar",
+            "2 tablespoons cornstarch",
+            "1 tablespoons sesame oil omit if allergic",
+            "1 teaspoon garlic powder",
+            "1 teaspoon ginger powder",
+            "1 teaspoon sugar",
+            "1 pound garlic chives* chop into 1 to 1.5 inch pieces",
+            "4 medium carrots peeled and thinly sliced",
+            "0.5 pound snow peas trim ends"
+        ],
+        "instructions": [
+            "Cook pasta according to package instructions until al dente. Reserve 1/2 cup of pasta water and drain the pasta in a colander.",
+            "Heat up a large skillet (12-14 inch) on medium heat, add 1 teaspoon olive oil, and pan fry chicken on both sides until cooked thoroughly, set aside to cool, and chop into bite sized pieces.",
+            "Prepare sauce by combining soy sauce, water, rice vinegar, cornstarch, sesame oil (if using), garlic powder, ginger powder, and sugar in a small mixing bowl and set aside.",
+            "In the same skillet, add another teaspoon of olive oil and stir fry the sliced carrots for 3-5 minutes. Add the garlic chives and stir fry until the chives are bright green (1 minute).",
+            "Add snow peas, stir fry for 1 minute. Add the chopped chicken back into the pot and stir. Add the cooked pasta into the pot. Stir the cornstarch slurry and pour over the noodles.",
+            "Stir to combine the noodles with the stir fry until the sauce thickens or is absorbed by the pasta."
+        ],
+        "image_url": "https://nutfreewok.com/wp-content/uploads/2024/04/chicken-and-vegetables-lo-mein-1-1024x1536.jpg.webp"
+    },
+
+    {
+        "recipeId": "soondubu",
+        "recipeName": "Soondubu Jjigae",
+        "allergens_free": ["nut", "peanut", "dairy", "egg", "vegan", "fish", "shellfish"],
+        "place": "Korea",
+        "ingredients": [
+            "1 piece dried kelp aka dasima 4x4 inches *can sub 1/2 tsp kombu dashi powder",
+            "5 dried shiitake mushrooms *can sub 1 tsp mushroom powder",
+            "2-3 cups water",
+            "1 tbsp cooking oil",
+            "4 oz vegan pork belly, diced *optional",
+            "3 cloves garlic, minced",
+            "6 stalks scallions, diced with greens and whites separated",
+            "1/4 small Korean radish aka mu or daikon radish, sliced into rounds then quartered *optional",
+            "1 cup vegan kimchi",
+            "1 tbsp gochugaru start with 1/2 tbsp for a milder version *can sub with Aleppo pepper",
+            "1 tbsp vegan fish sauce or light soy sauce plus more to taste",
+            "1/2 lb. enoki mushrooms *optional",
+            "1 lb. silken tofu"
+        ],
+        "instructions": [
+            "Add kelp, shiitake mushrooms, and water to a stockpot. Heat on low, maintaining the barest simmer, for 15 minutes. (You can skip this step if using powdered kelp and mushroom.",
+            "Meanwhile, in a skillet on high heat, add oil and sauté the vegan pork belly until browned. Add garlic and the white parts of the scallions, sauté a minute further.",
+            "Add radish, kimchi, and gochugaru and cook for a couple more minutes.",
+            "Remove the kelp from the simmering water and turn heat up to medium. Transfer the contents of the skillet into the stockpot.",
+            "Add enoki mushrooms (if using) and vegan fish sauce (or soy sauce). Cover and boil gently for 20 minutes.",
+            "After 20 minutes, put in the silken tofu. Gently break it up with a spatula. Turn off the heat, and cover again for 5 minutes.",
+            "Taste and adjust for salt. Top with scallion greens. Serve piping hot!"
+        ],
+        "image_url": "https://www.myeclecticbites.com/wp-content/uploads/2021/08/Vegan-Soondubu-07.jpg"
+    },
+
+    {
+        "recipeId": "bulgogi",
+        "recipeName": "Bulgogi",
+        "allergens_free": ["nut", "peanut", "dairy", "egg", "vegan", "fish", "shellfish", "gluten"],
+        "place": "Korea",
+        "ingredients": [
+            "1/4 cup tamari soy sauce",
+            "1/8 cup water",
+            "3 cloves minced garlic",
+            "2 tablespoons brown sugar or honey",
+            "1 lb. thinly shaved beef"
+        ],
+        "instructions": [
+            "Combine soy sauce, water, garlic and honey/brown sugar. Stir to combine.",
+            "Combine soy sauce mixture with thinly shaved beef. Make sure all meat is submerged in liquid. Cover and refrigerate for 30 minutes, up to a few hours.",
+            "Heat a large skillet on medium heat. When the pan is hot, add beef and sautee until all pink is gone.",
+            "Serve with rice."
+        ],
+        "image_url": "https://s23209.pcdn.co/wp-content/uploads/2019/04/240124_DD_korean-beef-bulgogi_274.jpg"
+    },
+
+    {
+        "recipeId": "chickenBroccoli",
+        "recipeName": "Korean Chicken and Broccoli",
+        "allergens_free": ["nut", "peanut", "dairy", "egg", "gluten", "fish"],
+        "place": "Korea",
+        "ingredients": [
+            "1 lb. ground chicken",
+            "1/2 cup brown sugar",
+            "1/4 cup coconut aminos",
+            "1 Tablespoon olive oil",
+            "3 cloves garlic, minced",
+            "1/4 teaspoon ground ginger",
+            "1/2 teaspoon Sriracha sauce (or more to taste)",
+            "salt and pepper",
+            "1 bunch green onions, diced for garnish",
+            "2 heads of broccoli, washed and cut",
+            "Brown or white rice, cooked"
+        ],
+        "instructions": [
+            "Heat a large skillet over medium heat and cook chicken with garlic in the olive oil.",
+            "Add brown sugar, coconut aminos, ginger, salt, pepper, and sriracha. Simmer for a few minutes to blend the flavors and chicken is cooked through.",
+            "Take the chicken out, set aside and keep covered to stay warm.",
+            "Put the broccoli in the pan with the remaining sauce and cook until bright green and softened.",
+            "If using, add the drained water chestnuts and chicken mixture back into the sauce with the broccoli. Stir to combine everything.",
+            "Serve the chicken and broccoli mixture over steamed rice and top with green onions."
+        ],
+        "image_url": "https://allergyawesomeness.com/wp-content/uploads/2016/02/korean.chicken.above_.5x7.logo_-1097x1536.jpg"
+    },
+
+    {
+        "recipeId": "lemonChickem",
+        "recipeName": "Greek Lemon Chicken",
+        "allergens_free": ["dairy", "gluten"],
+        "place": "Greece",
+        "ingredients": [
+            "2 lb. boneless chicken breast", 
+            "1 cup plain dairy free coconut milk yogurt",
+            "1 small lemon, zested and juiced",
+            "2 cloves garlic, minced",
+            "2 tablespoon olive oil",
+            "1/2 tablespoon oregano",
+            "3/4 teaspoon thyme",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper"
+        ],
+        "instructions": [
+            "Cut the chicken breast into 2 inch cubes or into strips.",
+            "In a medium sized bowl, combine coconut milk yogurt, lemon zest, lemon juice, minced garlic, olive oil, oregano, thyme, salt, and pepper.",
+            "Place everything in a large bowl or freezer bag and stir/shake to evenly coat the chicken.",
+            "Marinate chicken in the refrigerator for 30 minutes.",
+            "Preheat oven to 375 degrees F.",
+            "Pour all of the contents in the bag into a 9x13 baking dish.",
+            "Bake for 25 minutes."
+        ],
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfNcF4whfNIS7u79XFsAr-09hUqhZGjFuLgw&s"
+    },
+
+    {
+        "recipeId": "salad",
+        "recipeName": "Greek Salad",
+        "allergens_free": ["vegan", "gluten"],
+        "place": "Greece",
+        "ingredients": [
+            "1 large head romaine lettuce, chopped (about 8 cups)",
+            "1 cucumber peeled, and diced",
+            "8 oz. cherry or grape tomatoes halved",
+            "1 bell pepper (any color) chopped",
+            "1/2 red onion very thinly sliced (optional)",
+            "1/3 cup black olives, sliced",
+            "1 and 1/4 cup vegan mayonnaise",
+            "1/2 cucumber peeled and chopped",
+            "1 tablespoon lemon juice",
+            "1 tablespoon red wine vinegar",
+            "1 garlic clove, peeled or 1/2 teaspoon jarred minced garlic",
+            "1/2 teaspoon dried dill",
+            "1/2 teaspoon dried parsley",
+            "1/2 teaspoon salt",
+            "1/8 teaspoon pepper",
+            "1/8 teaspoon ground cumin"
+        ],
+        "instructions": [
+            "In a large serving bowl lay down your chopped and washed greens. Place your additional toppings.",
+            "In a good quality blender, place all of your dressing ingredients which are mayonnaise, cucumber, lemon juice, red wine vinegar, garlic, dried dill, dried parsley, salt, pepper and cumin. Blend until smooth.",
+            "Serve the salad with the dressing on the side, and allow everyone to smother their salad in the dressing to their hearts' content.",
+            "Serve immediately."
+        ],
+        "image_url": "https://allergyawesomeness.com/wp-content/uploads/2021/04/greek-chicken-salad-above-1097x1536.jpg"
+    },
+
+    {
+        "recipeId": "shawarma",
+        "recipeName": "Chicken Shawarma",
+        "allergens_free": ["egg", "dairy", "gluten", "soy", "fish", "nut", "peanut"],
+        "place": "Lebanon",
+        "ingredients": [
+            "4 Cardamom Pods dried",
+            "3/4 teaspoon Smoked Paprika",
+            "1/2 teaspoon Ground Cumin",
+            "1/2 teaspoon Ground Coriander",
+            "1/2 teaspoon Ground Cinnamon",
+            "1/2 teaspoon Ground Allspice",
+            "1/2 teaspoon Ground Thyme dried",
+            "1/4 teaspoon Salt",
+            "1/8 teaspoon Ground Pepper",
+            "1 cup Oat based Plain Dairy Free Yoghurt Gluten Free (or Coconut based)",
+            "3 Cloves Garlic minced",
+            "1 tablespoon Olive Oil",
+            "3 tablespoons Lemon Zest",
+            "2 tablespoons Lemon Juice",
+            "4 Large Boneless Skinless Breast Trimmed and cut in half",
+            "1 tablespoon Neutral oil for the casserole dish"
+        ],
+        "instructions": [
+            "In a mortar and pestle, place the cardamom pods in the mortar bowl. Tap the pods with the pestle to crack the pods but not crush the seeds inside.",
+            "Dump the mortar contents into the palm of your hand and with your nails pull the dried pods off the seeds. You can compost the shell.",
+            "Keep the seeds and put them back in the mortar bowl. When all the seeds are separated from the pod use the pestle and grind the seeds into a fine powder.",
+            "Add the ground cardamom seeds to a small glass bowl.",
+            "Measure the rest of the spices into the same small glass bowl as the ground cardamom. Mix well.",
+            "3/4 teaspoon Smoked Paprika, 1/2 teaspoon Ground Cumin, 1/2 teaspoon Ground Coriander, 1/2 teaspoon Ground Cinnamon, 1/2 teaspoon Ground Allspice, 1/2 teaspoon Ground Thyme",
+            "Preheat a small pan over medium high heat on the stove. When heated add the dried ground spices from the small glass bowl. Stir the spices often. Heat them for about 1-2 minutes or until the smell gets stronger.",
+            "Remove the pan from the heat and turn off the burner.",
+            "Carefully transfer the spices back to the small glass bowl.",
+            "Set aside the heated spices until making the marinade.",
+            "In a large glass bowl add the gluten free oat or coconut based plain flavour dairy free yoghurt.",
+            "1 cup Oat based Plain Dairy Free Yoghurt",
+            "To it add the heated spice mix, salt, pepper, olive oil, lemon juice, lemon zest, and minced garlic.",
+            "1/4 teaspoon Salt, 1/8 teaspoon Ground Pepper, Heated Spices, 3 Cloves Garlic, 1 tablespoon Olive Oil, 3 Tbsps Lemon Zest, 2 Tbsps Lemon Juice",
+            "Stir well to mix together. Set aside.",
+            "Trim any extra fat or bits from the chicken breasts on a plastic cutting board. Cut each of the chicken breasts in half.",
+            "Put 1 piece of parchment on the cutting boards. Place one of the halved chicken breasts on the paper. Cover the breast with a second sheet of parchment and using the flat side of a meat tenderising mallet pound the meat until it is ½ an inch thin. It should be evenly thin.",
+            "Peel the chicken from the parchment and place in the bowl containing the marinade. Re-use the parchment for the next piece of chicken. Repeat for all the chicken breasts.",
+            "When all the chicken has been tenderised and is in the marinade bowl use your hands to massage the marinade into the chicken. Ensure all the meat is well coated with marinade.",
+            "Cover the bowl with plastic wrap and put it in the refrigerator to marinade. It should sit for 2 hours minimum and can be left overnight, if preferred. If pressed for time the marinade is optional but for best flavour recommended.",
+            "After the chicken has finished marinating, lightly oil a 9 inch by 13 inch glass casserole dish. Preheat the oven to 425 F.",
+            "Pour the chicken and the marinade into the casserole dish. Spread the chicken out in to a single even layer.",
+            "Place the casserole dish on the middle rack of the oven and let it bake for 25-30 minutes or until the chicken reaches the internal temperature of 175 F."
+        ],
+        "image_url": "https://www.theallergenfreekitchen.com/wp-content/uploads/2023/04/Allergen-Friendly-Lebanese-Shawarma-Chicken-Recipe-vertical.jpg"
+    },
+
+    {
+        "recipeId": "tabbouleh",
+        "recipeName": "Quinoa Tabbouleh Salad",
+        "allergens_free": ["peanut", "nut", "dairy", "egg", "soy", "wheat", "gluten", "fish", "shellfish"],
+        "place": "Lebanon",
+        "ingredients": [
+            "1 cup quinoa rinsed & drained",
+            "2 cup water",
+            "1 English cucumber peeled & chopped",
+            "1 pint cherry or grape tomatoes quartered lengthwise",
+            "1 bunch flat leaf parsley finely chopped",
+            "6 green onions chopped",
+            "3 tablespoon bottled lemon juice or the juice of 1 fresh whole lemon",
+            "1/3 cup grapeseed or extra virgin olive oil",
+            "1/4 teaspoon sea salt",
+            "dash of pepper",
+            "pinch of crushed red peppers"
+        ],
+        "instructions": [
+            "Cook quinoa and water, first bringin the 2 cups of water to a boil, and then adding quinoa to boiling water. Stir and let boil a few minutes, and then reduce to a simmer for about 10-15 minutes, until tender and liquid is absorbed. Then let sit for about 10-15 minutes to cool. For time saving tip, you can make the quinoa the day before and use chilled pre-cooked quinoa to prepare the salad the next day. Once cooled to room temperature, fluff with a spoon and add to a larger bowl.",
+            "Prep veggies and herbs as noted above, and add them to the quinoa. Stir gently until well combined."
+        ],
+        "image_url": "https://i0.wp.com/foodallergypi.com/wp-content/uploads/2018/08/img_5830.jpg?resize=1086%2C1449&ssl=1"
+    },
+
+    {
+        "recipeId": "chicory",
+        "recipeName": "Chicory With Sauteed Onions",
+        "allergens_free": ["vegan", "gluten"],
+        "place": "Lebanon",
+        "ingredients": [
+            "1 bunch chicory roughly chopped",
+            "1 1/2 lemon juice (approximately 5-6 tablespoons)",
+            "2 garlic cloves crushed",
+            "salt to season",
+            "3 onions cut in rough wedges (optional)",
+            "1/4 cup olive oil (optional)"
+        ],
+        "instructions": [
+            "Wash the chicory in the sink to remove any dirt. Roughly chop.",
+            "Bring a large pot of water to a boil. Add 1 tablespoon of salt and the chopped chicory pushing down when necessary for approximately 20 minutes or until it softens.",
+            "Meanwhile, chop the onions in wedges and sautée with olive oil until golden in colour (this step is optional).",
+            "Squeeze as much water out of the boiled chicory as possible by creating round ball shapes using your hands. Transfer to a serving dish. Roughly break up the chicory and combine well with crushed garlic and lemon juice. Season with salt. Top with the sauteed onions (You can also serve this without the sauteed onion)."
+        ],
+        "image_url": "https://roubashahin.com.au/wp-content/uploads/2020/08/0L1A4211.jpg"
     }
 ]
