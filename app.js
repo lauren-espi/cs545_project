@@ -1,5 +1,5 @@
 import express from 'express';
-import configRoutes from './routes/index.js';
+import configRoutes from './routes/home.js';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 const app = express();
