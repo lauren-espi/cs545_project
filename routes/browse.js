@@ -28,8 +28,8 @@ router.route('/recipe/:recipeId')
     .get(async (req, res) => {
         try {
             // fetch recipe from params (I DONT KNOW IF THIS WORKS RN)
-            const recipe = recipes.req.params.recipeId;
-            // TODO: insert into website when rendering
+            const recipe = recipes.find(obj => obj.id === res.param.recipeId);
+            res.render('browse', { pageTitle: recipe.recipeName, data: recipe });
         }
         catch {
             console.error(e);
