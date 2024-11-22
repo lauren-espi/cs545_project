@@ -1,0 +1,44 @@
+<main>
+    <div class="recipe-container">
+        <h1>{{this.recipeName}}</h1>
+
+        <p class="description">{{description}}</p>
+
+        <div class="image-container">
+            <img src="{{this.image_url}}" alt="{{this.recipeName}}" class="recipe-image" />
+        </div>
+
+        <div class="cuisine-container">
+            <h3>Cuisine: {{this.place}}</h3>
+       </div>
+
+        <div class="allergies-container">
+            <h3>Allergen(s) Free of: </h3>
+            <ul>
+                {{#each allergens_free}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="ingredients-container">
+            <h3>Ingredients</h3>
+            <ul>
+                {{#each ingredients}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="recipe-instructions">
+            <h3>Instructions</h3>
+            <ul>
+                {{#each instructions}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="../public/css/view.css">
+</main>

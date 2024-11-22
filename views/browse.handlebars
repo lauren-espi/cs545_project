@@ -26,10 +26,12 @@
             <h2>Top Recipes</h2>
             <div class="recipeBook">
                 {{#each recipes}}
-                <div class="recipeCard">
-                    <img src="{{this.image_url}}" alt="{{this.recipeName}}">
-                    <h3>{{this.recipeName}}</h3>
-                </div>
+                    <div class="recipeCard">
+                        <a href="/recipe/{{this.recipeId}}">
+                            <img src="{{this.image_url}}" alt="{{this.recipeName}}">
+                            <h3>{{this.recipeName}}</h3>
+                        </a>
+                    </div>
                 {{/each}}
             </div>
         </div>
