@@ -1,3 +1,4 @@
+/* styles.css */
 body, html {
     margin: 0;
     padding: 0;
@@ -13,14 +14,19 @@ h2 {
 #container {
     display: flex;
     padding: 20px;
+    height: 100vh; /* Make sure container takes full viewport height */
+    box-sizing: border-box;
 }
 
 #sidebar {
-    width: 700px; /* Adjust as needed */
+    flex: 1; /* Represents 1 part */
+    max-width: 300px; /* Optional: limit the max width for larger screens */
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px; /* Add space between boxes */
+    box-sizing: border-box;
+    background-color: #f8f8f8; /* Light background color for sidebar */
 }
 
 .box {
@@ -32,24 +38,27 @@ h2 {
 }
 
 #recipes {
-    flex-grow: 1; /* Make recipes section take the remaining space */
-    padding: 0px 20px; /* Add some padding for better appearance */
+    flex: 4; /* Represents 4 parts */
+    padding: 0 20px; /* Add some padding for better appearance */
+    box-sizing: border-box;
 }
 
 .recipeBook {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px; /* Add space between recipe cards */
 }
 
 .recipeCard {
-    width: 200px; /* Adjust as needed */
+    width: 18%; /* Adjust as needed */
     background-color: #FFFFFF;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center align text and images */
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for grow effect */
 }
 
 .recipeCard img {
