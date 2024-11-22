@@ -1,31 +1,38 @@
 <main>
-    <div id="sidebar">
-        <h2>Browse by Cuisine</h2>
-        <div id="cuisines">
-            <ul id="cuisineList">
-                {{#each cuisines}}
-                <li>{{this}}</li>
-                {{/each}}
-            </ul>
-        </div>
-        <div id="allergens">
-            <h2>Browse by Allergen</h2>
-            <ul id="allergenList">
-                {{#each allergens}}
-                <li>{{this}}</li>
-                {{/each}}
-            </ul>
-        </div>
-    </div>
-    <div id="recipes">
-        <h2>Browse All Recipes</h2>
-        <div class="recipeBook">
-        {{#each recipes}}
-            <div class="recipeCard">
-                <img src="{{this.image_url}}">
-                <h3>{{this.recipeName}}</h3>
+    <div id="container">
+        <div id="sidebar">
+            <div class="box">
+                <h2>Browse by Cuisine</h2>
+                <div id="cuisines">
+                    <ul id="cuisineList">
+                        {{#each cuisines}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
             </div>
-            {{/each}}
+            <div class="box">
+                <h2>Browse by Allergen</h2>
+                <div id="allergens">
+                    <ul id="allergenList">
+                        {{#each allergens}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="recipes">
+            <h2>Top Recipes</h2>
+            <div class="recipeBook">
+                {{#each recipes}}
+                <div class="recipeCard">
+                    <img src="{{this.image_url}}" alt="{{this.recipeName}}">
+                    <h3>{{this.recipeName}}</h3>
+                </div>
+                {{/each}}
+            </div>
         </div>
     </div>
+    <link rel="stylesheet" type="text/css" href="../../public/css/browse.css" />
 </main>

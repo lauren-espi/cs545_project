@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Place carousel behind the content */
+}
+
+.carousel-images {
+    display: flex;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-image {
+    min-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%); /* Darken the images */
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Ensure content is in front of the carousel */
+    top: 35%;
+    height: 100%; /* Ensure it takes the full height of the viewport */
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #606C38;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #455A2B;
+}

@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color: #BC6C25;
+}
+
+#container {
+    display: flex;
+    padding: 20px;
+}
+
+#sidebar {
+    width: 700px; /* Adjust as needed */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add space between boxes */
+}
+
+.box {
+    padding: 5px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#recipes {
+    flex-grow: 1; /* Make recipes section take the remaining space */
+    padding: 0px 20px; /* Add some padding for better appearance */
+}
+
+.recipeBook {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Add space between recipe cards */
+}
+
+.recipeCard {
+    width: 200px; /* Adjust as needed */
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text and images */
+}
+
+.recipeCard img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.recipeCard h3 {
+    padding: 10px;
+    font-size: 18px;
+    transition: color 0.3s; /* Add transition for text color change */
+}
+
+.recipeCard:hover {
+    transform: scale(1.05); /* Grow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a larger shadow */
+}
+
+.recipeCard:hover h3 {
+    color: #FF8C00; /* Darker orange for recipe name */
+}
+
+#cuisineList, #allergenList {
+    list-style: none;
+    padding: 0;
+}
+
+#cuisineList li, #allergenList li {
+    padding: 5px 0;
+    transition: color 0.3s; /* Add transition for text color change */
+    cursor: pointer; /* Indicate clickable item */
+}
+
+#cuisineList li:hover, #allergenList li:hover {
+    color: #DDA15E; /* Orange color on hover */
+}
+
+#cuisineList li:last-child, #allergenList li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}

@@ -1,57 +1,54 @@
-<body>
-  <div>
+<div class="form-container">
     <h2>Upload a Recipe</h2>
     <form action="/upload" method="POST" enctype="multipart/form-data">
-      <!-- Title Input -->
-      <label for="title">Recipe Title:</label>
-      <input type="text" id="title" name="title" placeholder="Enter the recipe title" required />
-      <br />
+        <!-- Title Input -->
+        <label for="title">Recipe Title:</label><br />
+        <input type="text" id="title" name="title" placeholder="Enter the recipe title" required />
+        <br />
 
-      <!-- Image Upload -->
-      <label for="image">Upload an Image:</label>
-      <input type="file" id="image" name="image" accept="image/*" required />
-      <br />
+        <!-- Description -->
+        <label for="description">Description:</label><br />
+        <textarea id="description" name="description" rows="4" cols="50"
+            placeholder="Enter your description here..."></textarea>
+        <br />
 
-      <!-- Cuisine Type -->
-      <fieldset>
-        <legend>Select Cuisine Type:</legend>
-        <label>
-          <input type="checkbox" name="cuisine" value="American" /> American
-        </label>
-        <label>
-          <input type="checkbox" name="cuisine" value="African" /> African
-        </label>
-        <label>
-          <input type="checkbox" name="cuisine" value="European" /> European
-        </label>
-      </fieldset>
-      <br />
+        <!-- Image Upload -->
+        <label for="image">Upload an Image:</label><br />
+        <input type="file" id="image" name="image" accept="image/*" required />
+        <br />
 
-      <!-- Allergy Options -->
-      <fieldset>
-        <legend>Select Allergy-Friendly Options:</legend>
-        <label>
-          <input type="checkbox" name="allergies" value="Wheat" /> Wheat
-        </label>
-        <label>
-          <input type="checkbox" name="allergies" value="Soy" /> Soy
-        </label>
-        <label>
-          <input type="checkbox" name="allergies" value="Dairy" /> Dairy
-        </label>
-      </fieldset>
-      <br />
-      <!-- Input ingredients -->
-      <label for="title">Input Recipe</label>
-      <input type="text" id="title" name="title" placeholder="Enter Ingredient" required />
-      <button id="add-ingredient">Add Ingredient</button>
-      <br />
-      <!-- Type Recipe Here -->
-      <label for="recipe">Recipe</label>
-      <textarea id="recipe" name="recipe" rows="4" cols="50" placeholder="Enter your recipe here..."></textarea>
-      <br />
-      <!-- Submit Button -->
-      <button type="submit">Submit Recipe</button>
+        <!-- Cuisine Type -->
+        <fieldset>
+            <legend>Select Cuisine Type:</legend>
+            <label><input type="checkbox" name="cuisine" value="American" /> American</label>
+            <label><input type="checkbox" name="cuisine" value="African" /> African</label>
+            <label><input type="checkbox" name="cuisine" value="European" /> European</label>
+        </fieldset>
+        <br />
+
+        <!-- Allergy Options -->
+        <fieldset>
+            <legend>Select Allergy-Friendly Options:</legend>
+            <label><input type="checkbox" name="allergies" value="Wheat" /> Wheat</label>
+            <label><input type="checkbox" name="allergies" value="Soy" /> Soy</label>
+            <label><input type="checkbox" name="allergies" value="Dairy" /> Dairy</label>
+        </fieldset>
+        <br />
+
+        <!-- Ingredients -->
+        <label for="ingredients">Ingredients:</label><br />
+        <input type="text" id="ingredients" name="ingredients" placeholder="Enter Ingredient" required />
+        <button type="button" id="add-ingredient">Add Ingredient</button>
+        <br />
+
+        <!-- Recipe Instructions -->
+        <label for="recipe">Recipe:</label><br />
+        <textarea id="recipe" name="recipe" rows="4" cols="50" placeholder="Enter your recipe here..."></textarea>
+        <br />
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Recipe</button>
     </form>
-  </div>
-</body>
+</div>
+<link rel="stylesheet" href="../public/css/create.css">
+<script src="../public/js/create.js"></script>
