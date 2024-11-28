@@ -2,7 +2,7 @@
     {
         "recipeId": "veal",
         "recipeName": "Veal Marsala",
-        "allergens_free":["dairy", "egg", "fish", "gluten", "peanut", "shellfish", "soy", "tree nut", "wheat"],
+        "allergens_free":["dairy", "egg", "fish", "gluten", "peanut", "shellfish", "soy"],
         "place": "Italy",
         "ingredients": ["1 lb. veal scallopine (cutlet)", "3/4 teaspoon salt", "1/4 teaspoon pepper", "3/4 cup potato flour (starch)", "1/4 cup grapeseed oil", "2 cloves garlic chopped", "16 ounces mushrooms sliced", "1 cup dry Marsala wine", "2 tablespoons tapioca flour", "1/4 cup beef stock", "2 tablespoons fresh chopped parsley"], 
         "instructions":[
@@ -156,7 +156,7 @@
     {
         "recipeId": "champorado",
         "recipeName": "Champorado",
-        "allergens_free": ["vegan", "diary", "egg", "gluten", "shellfish", "fish"],
+        "allergens_free": ["vegan", "dairy", "egg", "gluten", "shellfish", "fish"],
         "place": "Philippines",
         "ingredients": [
             "1 1/2 cup sticky white rice (also known as glutinous rice)",
@@ -179,7 +179,7 @@
     {
         "recipeId": "linguine",
         "recipeName": "Whole Wheat Linguine and Roasted Peppers",
-        "allergens_free": ["peanuts", "nuts", "dairy", "egg", "soy", "fish", "shellfish"],
+        "allergens_free": ["peanut", "nut", "dairy", "egg", "soy", "fish", "shellfish"],
         "place": "Italy",
         "ingredients": [
             "1 1/2 cups whole basil leaves",
@@ -887,7 +887,7 @@
     {
         "recipeId": "tabbouleh",
         "recipeName": "Quinoa Tabbouleh Salad",
-        "allergens_free": ["peanut", "nut", "dairy", "egg", "soy", "wheat", "gluten", "fish", "shellfish"],
+        "allergens_free": ["peanut", "nut", "dairy", "egg", "soy", "gluten", "fish", "shellfish"],
         "place": "Lebanon",
         "ingredients": [
             "1 cup quinoa rinsed & drained",

@@ -45,7 +45,10 @@ const exportedMethods = {
         allergyCountArray.sort((a, b) => b[1] - a[1]);
 
         // Map the sorted array to only return the allergy names
-        return allergyCountArray.map(entry => entry[0]);
+        return allergyCountArray.map(entry => {
+            const allergy = entry[0];
+            return allergy.charAt(0).toUpperCase() + allergy.slice(1); //Capitalized the first letter of the allergen
+        });
     }
 };
 
