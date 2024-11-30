@@ -15,10 +15,9 @@
        </div>
 
         <div class="allergies-container">
-            <h3>Allergen(s) Free of: </h3>
             <ul>
-                {{#each allergens_free}}
-                    <li>{{this}}</li>
+                {{#each icons}}
+                    <img src="{{this}}" alt="N/A" style="width: 170px; height: auto; margin: 5px;">
                 {{/each}}
             </ul>
         </div>

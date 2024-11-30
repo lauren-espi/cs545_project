@@ -2,7 +2,8 @@
     {
         "recipeId": "veal",
         "recipeName": "Veal Marsala",
-        "allergens_free":["dairy", "egg", "fish", "gluten", "peanut", "shellfish", "soy"],
+        "allergens_free":["dairy", "soy", "egg", "gluten", "nut", "shellfish", "fish"], 
+        "icons": ["/allergenPhotos/dairy.png", "/allergenPhotos/soy.png", "/allergenPhotos/egg.png", "/allergenPhotos/gluten.png", "/allergenPhotos/nut.png", "/allergenPhotos/shellfish.png", "/allergenPhotos/fish.png"],
         "place": "Italy",
         "ingredients": ["1 lb. veal scallopine (cutlet)", "3/4 teaspoon salt", "1/4 teaspoon pepper", "3/4 cup potato flour (starch)", "1/4 cup grapeseed oil", "2 cloves garlic chopped", "16 ounces mushrooms sliced", "1 cup dry Marsala wine", "2 tablespoons tapioca flour", "1/4 cup beef stock", "2 tablespoons fresh chopped parsley"], 
         "instructions":[
@@ -21,6 +22,15 @@
         "recipeId": "millet",
         "recipeName": "Millet with Red Kidney Beans",
         "allergens_free": ["gluten", "dairy", "egg", "nut", "peanut", "soy", "shellfish", "fish"],
+        "icons": [
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"],
         "place": "Jamaica",
         "ingredients": ["1 tablespoon olive oil",
             "2 garlic cloves minced",
@@ -49,6 +59,17 @@
         "recipeId": "shepardsPie",
         "recipeName": "Shepherd's Pie",
         "allergens_free": ["vegan", "dairy", "egg", "nut", "peanut", "soy", "gluten", "shellfish", "fish"],
+        "icons": [
+            "/allergenPhotos/vegan.png",
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "United Kingdom",
         "ingredients": [ "1 medium onion chopped, about 3/4 cup",
             "2 cloves garlic minced",
@@ -90,7 +111,17 @@
     {
         "recipeId": "pancit",
         "recipeName": "Pancit Palabok",
-        "allergens_free": ["vegan", "dairy", "egg", "nut", "peanut", "gluten", "shellfish", "fish", "gluten"],
+        "allergens_free": ["vegan", "dairy", "egg", "nut", "peanut", "shellfish", "fish", "gluten"],
+        "icons": [
+            "/allergenPhotos/vegan.png",
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Philippines",
         "ingredients": [
             "1 package (16oz) cornstarch noodles. I used the brand, Super Q.",
@@ -129,6 +160,15 @@
         "recipeId": "bistek",
         "recipeName": "Bistek",
         "allergens_free": ["vegan", "dairy", "egg", "nut", "peanut", "shellfish", "fish"],
+        "icons": [
+            "/allergenPhotos/vegan.png",
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Philippines",
         "ingredients": [
             "3 tablespoons cooking oil (I suggest mixture of canola and olive oil)",
@@ -157,6 +197,14 @@
         "recipeId": "champorado",
         "recipeName": "Champorado",
         "allergens_free": ["vegan", "dairy", "egg", "gluten", "shellfish", "fish"],
+        "icons": [
+            "/allergenPhotos/vegan.png",
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Philippines",
         "ingredients": [
             "1 1/2 cup sticky white rice (also known as glutinous rice)",
@@ -180,6 +228,15 @@
         "recipeId": "linguine",
         "recipeName": "Whole Wheat Linguine and Roasted Peppers",
         "allergens_free": ["peanut", "nut", "dairy", "egg", "soy", "fish", "shellfish"],
+        "icons": [
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/fish.png",
+            "/allergenPhotos/shellfish.png"
+            ],
         "place": "Italy",
         "ingredients": [
             "1 1/2 cups whole basil leaves",
@@ -203,6 +260,11 @@
         "recipeId": "risotto",
         "recipeName": "Lemon Risotto with Shrimp",
         "allergens_free": ["dairy", "gluten", "nut"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/nut.png"
+            ],
         "place": "Italy",
         "ingredients": [
             "5 tablespoons extra-virgin olive oil",
@@ -236,6 +298,13 @@
         "recipeId": "onigiri",
         "recipeName": "Onigiri",
         "allergens_free": ["soy", "vegan", "dairy", "egg", "gluten"],
+        "icons": [
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/vegan.png",
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/gluten.png"
+            ],
         "place": "Japan",
         "ingredients": [
             "short-grain Japanese rice",
@@ -256,6 +325,11 @@
         "recipeId": "soba",
         "recipeName": "Soba Noodles",
         "allergens_free": ["dairy", "egg", "nut", "peanut"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png"
+            ],
         "place": "Japan",
         "ingredients": [
             "1 1/2 cups dashi",
@@ -282,6 +356,16 @@
         "recipeId": "fajita",
         "recipeName": "Chicken Fajita Marinade ",
         "allergens_free": ["dairy", "egg", "nut", "peanut", "gluten", "soy", "shellfish", "fish" ],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Mexico",
         "ingredients": [
             "2 tablespoon Olive oil",
@@ -322,6 +406,12 @@
         "recipeId": "empanadas",
         "recipeName": "Empanadas",
         "allergens_free": ["nut", "peanut", "soy", "fish", "shellfish"],
+        "icons": [
+             "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Spain",
         "ingredients": [
             "3 cups gluten-free flour blend (Use Cup4Cup for best results)",
@@ -364,6 +454,16 @@
         "recipeId": "enchiladas",
         "recipeName": "Cheesy Roasted Corn and Sweet Potato Enchiladas",
         "allergens_free": ["dairy", "egg", "nut", "peanut", "soy", "gluten", "shellfish", "fish"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Mexico",
         "ingredients": [
             "8 corn tortillas, gluten-free if needed",
@@ -390,6 +490,16 @@
         "recipeId": "ropa",
         "recipeName": "Oyster Mushroom Ropa Vieja",
         "allergens_free": ["dairy", "egg", "nut", "peanut", "gluten", "soy", "fish", "shellfish"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Cuba",
         "ingredients": [
             "8-ounces oyster mushrooms",
@@ -424,6 +534,13 @@
         "recipeId": "butterChicken",
         "recipeName": "Butter Chicken",
         "allergens_free": ["dairy", "egg", "nut", "peanut", "soy"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/soy.png"
+            ],
         "place": "India",
         "ingredients": [
             "2 large Skinless Chicken Breasts (cubed)",
@@ -459,6 +576,16 @@
         "recipeId": "curry",
         "recipeName": "Curry",
         "allergens_free": ["dairy", "egg", "nut", "peanut", "soy", "gluten", "fish", "shellfish"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "India",
         "ingredients": [
             "1 head of cauliflower (or other vegetables of choice)",
@@ -488,6 +615,16 @@
         "recipeId": "masala",
         "recipeName": "Channa Masala",
         "allergens_free": ["dairy", "egg", "nut", "peanut", "soy", "gluten", "fish", "shellfish"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "India",
         "ingredients": [
             "1 bag of 365 brand Organic dried chic peas (or 5 cans cooked)",
@@ -516,6 +653,15 @@
         "recipeId": "wellington",
         "recipeName": "Beef Wellington",
         "allergens_free": ["dairy", "egg", "nut", "peanut", "soy", "fish", "shellfish"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "France",
         "ingredients": [
             "1 rolled puff pastry (not sweet)",
@@ -556,6 +702,12 @@
         "recipeId": "tomates",
         "recipeName": "Tomates Farcies",
         "allergens_free": ["nut", "peanut", "soy", "shellfish"],
+        "icons": [
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png"
+            ],
         "place": "France",
         "ingredients": [
             "6 tomatoes",
@@ -597,6 +749,16 @@
         "recipeId": "ratatouille",
         "recipeName": "Ratatouille",
         "allergens_free": ["dairy", "egg", "nut", "peanut", "soy", "gluten", "fish", "shellfish"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "France",
         "ingredients": [
             "1/4 cup extra-virgin olive oil",
@@ -622,6 +784,12 @@
         "recipeId": "sweetAndSour",
         "recipeName": "Sweet and Sour Fish",
         "allergens_free": ["nut", "peanut", "dairy", "egg"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png"
+            ],
         "place": "China",
         "ingredients": [
             "4 fillets (1.5 to 2 lb.s / 700 to 900 g) white fish , skin-on preferred (catfish, bass, perch, trout, and snapper are suitable)",
@@ -663,6 +831,14 @@
         "recipeId": "loMein",
         "recipeName": "Lo Mein",
         "allergens_free": ["nut", "peanut", "dairy", "egg", "shellfish", "fish"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "China",
         "ingredients": [
             "1 pound cappelini or angel hair pasta",
@@ -695,6 +871,15 @@
         "recipeId": "soondubu",
         "recipeName": "Soondubu Jjigae",
         "allergens_free": ["nut", "peanut", "dairy", "egg", "vegan", "fish", "shellfish"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/vegan.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Korea",
         "ingredients": [
             "1 piece dried kelp aka dasima 4x4 inches *can sub 1/2 tsp kombu dashi powder",
@@ -727,6 +912,16 @@
         "recipeId": "bulgogi",
         "recipeName": "Bulgogi",
         "allergens_free": ["nut", "peanut", "dairy", "egg", "vegan", "fish", "shellfish", "gluten"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/vegan.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Korea",
         "ingredients": [
             "1/4 cup tamari soy sauce",
@@ -748,6 +943,14 @@
         "recipeId": "chickenBroccoli",
         "recipeName": "Korean Chicken and Broccoli",
         "allergens_free": ["nut", "peanut", "dairy", "egg", "gluten", "fish"],
+        "icons": [
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Korea",
         "ingredients": [
             "1 lb. ground chicken",
@@ -777,6 +980,10 @@
         "recipeId": "lemonChickem",
         "recipeName": "Greek Lemon Chicken",
         "allergens_free": ["dairy", "gluten"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/gluten.png"
+            ],
         "place": "Greece",
         "ingredients": [
             "2 lb. boneless chicken breast", 
@@ -805,6 +1012,10 @@
         "recipeId": "salad",
         "recipeName": "Greek Salad",
         "allergens_free": ["vegan", "gluten"],
+        "icons": [
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/vegan.png"
+            ],
         "place": "Greece",
         "ingredients": [
             "1 large head romaine lettuce, chopped (about 8 cups)",
@@ -837,6 +1048,15 @@
         "recipeId": "shawarma",
         "recipeName": "Chicken Shawarma",
         "allergens_free": ["egg", "dairy", "gluten", "soy", "fish", "nut", "peanut"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Lebanon",
         "ingredients": [
             "4 Cardamom Pods dried",
@@ -888,6 +1108,16 @@
         "recipeId": "tabbouleh",
         "recipeName": "Quinoa Tabbouleh Salad",
         "allergens_free": ["peanut", "nut", "dairy", "egg", "soy", "gluten", "fish", "shellfish"],
+        "icons": [
+            "/allergenPhotos/dairy.png",
+            "/allergenPhotos/egg.png",
+            "/allergenPhotos/nut.png",
+            "/allergenPhotos/peanut.png",
+            "/allergenPhotos/gluten.png",
+            "/allergenPhotos/soy.png",
+            "/allergenPhotos/shellfish.png",
+            "/allergenPhotos/fish.png"
+            ],
         "place": "Lebanon",
         "ingredients": [
             "1 cup quinoa rinsed & drained",
@@ -913,6 +1143,9 @@
         "recipeId": "chicory",
         "recipeName": "Chicory With Sauteed Onions",
         "allergens_free": ["vegan", "gluten"],
+        "icons": [
+            "/allergenPhotos/vegan.png",
+            "/allergenPhotos/gluten.png" ],
         "place": "Lebanon",
         "ingredients": [
             "1 bunch chicory roughly chopped",
