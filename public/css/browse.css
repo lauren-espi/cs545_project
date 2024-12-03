@@ -70,7 +70,12 @@ h2 {
 .recipeCard h3 {
     padding: 10px;
     font-size: 18px;
+    color: #FF8C00; /* Darker orange for recipe name */
     transition: color 0.3s; /* Add transition for text color change */
+}
+
+.recipeCard a {
+    text-decoration: none;
 }
 
 .recipeCard:hover {
