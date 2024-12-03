@@ -49,6 +49,10 @@ const exportedMethods = {
             const allergy = entry[0];
             return allergy.charAt(0).toUpperCase() + allergy.slice(1); //Capitalized the first letter of the allergen
         });
+    },
+
+    getRecipesByPlace(recipes, place) {
+        return recipes.filter(recipe => recipe.place.toLowerCase() === place.toLowerCase());
     }
 };
 
