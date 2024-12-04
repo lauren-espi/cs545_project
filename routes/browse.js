@@ -53,4 +53,25 @@ router.route('/recipe/:recipeId')
         }
     });
 
+router.route('/filters/:place')
+    .get(async (req, res) => {
+        try {
+            const recipes = await loadRecipes();
+
+            const filtered = recipes.filter(recipe => recipe.place === req.params.place);
+    
+            // Get list of allergies
+            const allergens = recipeFunc.getSortedAllergyFrequencies(recipes);
+    
+            // Get list of cuisines
+            const cuisines = recipeFunc.getSortedPlaceFrequencies(recipes);
+    
+            // Render the 'browse' view with the JSON data
+            res.render('browse', { pageTitle: "Browse Recipes", recipes: filtered, allergens, cuisines });
+        } catch (e) {
+            console.error(e);
+            res.status(404).json({ error: 'Not found' });
+        }
+    });
+
 export default router;
