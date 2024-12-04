@@ -1,4 +1,8 @@
 /* TEMPLATING */
+* {
+    cursor: url('../cursor/plane_cursor.png'), auto;
+}
+
 html {
     font-family: Calibri;
 }
