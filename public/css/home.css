@@ -4,8 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    font-family: Calibri;}
 
 .carousel {
     position: absolute;
@@ -36,5 +35,7 @@ body, html {
     height: 100%; /* Ensure it takes the full height of the viewport */
     text-align: center;
     color: white;
+    font-weight: bold;
+    font-size: larger;
     padding: 20px;
 }

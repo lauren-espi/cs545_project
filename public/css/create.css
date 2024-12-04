@@ -4,8 +4,7 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    font-family: Calibri;}
 
 .form-container {
     background-color: #ffffff;
@@ -64,5 +63,5 @@ label {
 }
 
 #add-ingredient:hover, #submit:hover {
-    background-color: #283618; /* Darker green on hover */
+    background-color: #46A4C8; /* Darker green on hover */
 }
