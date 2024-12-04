@@ -52,7 +52,6 @@ label {
 }
 
 #add-ingredient, #submit {
-    background-color: #606C38;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -60,8 +59,4 @@ label {
     margin-bottom: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
-}
-
-#add-ingredient:hover, #submit:hover {
-    background-color: #46A4C8; /* Darker green on hover */
 }
