@@ -1,9 +1,9 @@
 <div class="form-container">
     <h2>Upload a Recipe</h2>
-    <form action="/upload" method="POST" enctype="multipart/form-data">
+    <form action="/browse" method="GET" enctype="multipart/form-data">
         <!-- Title Input -->
         <label for="title">Recipe Title:</label><br />
-        <input type="text" id="title" name="title" placeholder="Enter the recipe title" required />
+        <input type="text" id="recipetitle" name="title" placeholder="Enter the recipe title" required />
         <br />
 
         <!-- Description -->
@@ -20,24 +20,27 @@
         <!-- Cuisine Type -->
         <fieldset>
             <legend>Select Cuisine Type:</legend>
-            <label><input type="checkbox" name="cuisine" value="American" /> American</label>
-            <label><input type="checkbox" name="cuisine" value="African" /> African</label>
-            <label><input type="checkbox" name="cuisine" value="European" /> European</label>
+            <select name="cuisines" id="cuisines">
+            <option value="" selected disabled hidden>Choose Cuisine</option>
+            {{#each cuisines}}
+            <option value="{{this}}" />{{this}}</option>
+            {{/each}}
+            </select>
         </fieldset>
         <br />
 
         <!-- Allergy Options -->
         <fieldset>
             <legend>Select Allergy-Friendly Options:</legend>
-            <label><input type="checkbox" name="allergies" value="Wheat" /> Wheat</label>
-            <label><input type="checkbox" name="allergies" value="Soy" /> Soy</label>
-            <label><input type="checkbox" name="allergies" value="Dairy" /> Dairy</label>
+            {{#each allergens}}
+            <label><input type="checkbox" name="{{this}}" value="{{this}}" /> {{this}}</label>
+            {{/each}}
         </fieldset>
         <br />
 
         <!-- Ingredients -->
         <label for="ingredients">Ingredients:</label><br />
-        <input type="text" id="ingredients" name="ingredients" placeholder="Enter Ingredient" required />
+        <input type="text" id="ingredients" name="ingredients" placeholder="Enter Ingredient" />
         <button type="button" id="add-ingredient">Add Ingredient</button>
         <br />
 
@@ -47,7 +50,7 @@
         <br />
 
         <!-- Submit Button -->
-        <button type="submit">Submit Recipe</button>
+        <button type="submit" id="submit">Submit Recipe</button>
     </form>
 </div>
 <link rel="stylesheet" href="../public/css/create.css">

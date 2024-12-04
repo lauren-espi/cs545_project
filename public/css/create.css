@@ -27,7 +27,7 @@ label, legend {
     font-weight: bold;
 }
 
-input[type="text"], textarea, input[type="file"] {
+#recipetitle, #ingredients, textarea, input[type="file"] {
     width: calc(100% - 20px); /* Full width with padding consideration */
     padding: 10px;
     margin: 5px 0 15px 0;
@@ -51,7 +51,7 @@ label {
     padding-top: 5px;
 }
 
-button {
+#add-ingredient, #submit {
     background-color: #606C38;
     color: white;
     border: none;
@@ -62,6 +62,6 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+#add-ingredient:hover, #submit:hover {
     background-color: #46A4C8; /* Darker green on hover */
 }

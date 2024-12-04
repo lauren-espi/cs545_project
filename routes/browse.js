@@ -27,30 +27,12 @@ router.route('/')
             const cuisines = recipeFunc.getSortedPlaceFrequencies(recipes);
 
             // Render the 'browse' view with the JSON data
-            res.render('browse', { pageTitle: "Browse Recipes", recipes: recipes, allergens, cuisines });
+            res.render('browse', { pageTitle: "Browse Recipes", recipetypes: "Top Recipes", recipes: recipes, allergens, cuisines });
         } catch (e) {
             console.error(e);
             res.status(404).json({ error: 'Not found' });
         }
     });
 
-router.route('/recipe/:recipeId')
-    .get(async (req, res) => {
-        console.log("browser here")
-        try {
-            const recipes = await loadRecipes();
-            
-            // Fetch recipe from params
-            const recipe = recipes.find(obj => obj.recipeId === req.params.recipeId);
-            if (recipe) {
-                res.render('view', { pageTitle: recipe.recipeName, recipe: recipe });
-            } else {
-                res.status(404).json({ error: 'Recipe not found' });
-            }
-        } catch (e) {
-            console.error(e);
-            res.status(404).json({ error: 'Not found' });
-        }
-    });
 
 export default router;
