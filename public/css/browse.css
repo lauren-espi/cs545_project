@@ -21,12 +21,13 @@ h2 {
 #sidebar {
     flex: 1; /* Represents 1 part */
     max-width: 300px; /* Optional: limit the max width for larger screens */
+    height: 930px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px; /* Add space between boxes */
     box-sizing: border-box;
-    background-color: #f8f8f8; /* Light background color for sidebar */
+    background-color: #46A4C8; /* Light background color for sidebar */
 }
 
 .box {

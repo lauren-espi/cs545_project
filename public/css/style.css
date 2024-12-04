@@ -3,6 +3,9 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body{
+    background-color: #F9F1DA;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -13,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
-    background-color: #606C38;
+    background-color: #77BC53;
     color: #FFFFFF;
     margin: 10px 0px;
 }
@@ -25,7 +28,7 @@ header {
 
 nav {
     margin: 10px 0px;
-    background-color: #606C38;
+    background-color: #77BC53;
 }
 
 nav ul {
@@ -45,5 +48,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #DDA15E;
+    color: #aedcee;
 }
