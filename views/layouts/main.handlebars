@@ -7,6 +7,7 @@
     <title>Taste the World: {{pageTitle}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <link rel="stylesheet" type="text/css" href="../../public/css/style.css" />
+    <script src="../../public/js/main.js"></script>
 </head>
 <header>
     <div id="top-bar">
@@ -14,7 +15,10 @@
             <h1>Taste the World</h1>
             <p>Allergy-Friendly Cultural Recipes</p>
         </div>
-        <input type="text" placeholder="Search..">
+        <form id="searchForm" onsubmit="return search();">
+            <input type="text" id="searchInput" placeholder="Search for recipes.." />
+            <button type="submit">Search</button>
+        </form>
     </div>
     <nav>
         <ul>

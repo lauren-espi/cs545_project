@@ -6,7 +6,7 @@
                 <div id="cuisines">
                     <ul id="cuisineList">
                         {{#each cuisines}}
-                        <li><a href="/filters/{{this}}">{{this}}</a></li>
+                        <li><a href="/search/cuisine/{{this}}">{{this}}</a></li>
                         {{/each}}
                     </ul>
                 </div>
@@ -16,14 +16,14 @@
                 <div id="allergens">
                     <ul id="allergenList">
                         {{#each allergens}}
-                        <li>{{this}}</li>
+                        <li><a href="/search/allergen/{{this}}">{{this}}</a></li>
                         {{/each}}
                     </ul>
                 </div>
             </div>
         </div>
         <div id="recipes">
-            <h2>Top Recipes</h2>
+            <h2>{{recipetypes}}</h2>
             <div class="recipeBook">
                 {{#each recipes}}
                     <div class="recipeCard">

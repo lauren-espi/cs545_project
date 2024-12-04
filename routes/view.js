@@ -21,7 +21,7 @@ router.route('/:recipeId')
           const recipe = recipes.find(r => r.recipeId === req.params.recipeId);
           
           if (recipe) {
-              res.render('view', {recipeName: recipe.recipeName, image_url: recipe.image_url, icons: recipe.icons, allergens_free: recipe.allergens_free, place: recipe.place, ingredients: recipe.ingredients, instructions: recipe.instructions});
+              res.render('view', {pageTitle: recipe.recipeName, recipeName: recipe.recipeName, image_url: recipe.image_url, icons: recipe.icons, allergens_free: recipe.allergens_free, place: recipe.place, ingredients: recipe.ingredients, instructions: recipe.instructions});
           } else {
               res.status(404).json({ error: 'Recipe not found' });
           }

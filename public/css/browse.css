@@ -98,10 +98,16 @@ h2 {
     cursor: pointer; /* Indicate clickable item */
 }
 
-#cuisineList li:hover, #allergenList li:hover {
+#cuisineList li a, #allergenList li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#cuisineList li a:hover, #allergenList li a:hover {
+    text-decoration: none;
     color: #DDA15E; /* Orange color on hover */
 }
 
-#cuisineList li:last-child, #allergenList li:last-child {
+#cuisineList li a:last-child, #allergenList li a:last-child {
     border-bottom: none; /* Remove border for the last item */
 }
