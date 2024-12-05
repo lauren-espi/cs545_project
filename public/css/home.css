@@ -28,12 +28,20 @@ body, html {
     filter: brightness(50%); /* Darken the images */
 }
 
+.enter {
+    width: 300px;
+}
+
 .content {
+    /* display: flex;
+    flex-flow: column;
+    height: 100%; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     position: relative;
     z-index: 1; /* Ensure content is in front of the carousel */
-    top: 15%;
-    height: 100%; /* Ensure it takes the full height of the viewport */
-    text-align: center;
+    margin-top: 10%;
     color: white;
     font-weight: bold;
     font-size: larger;
