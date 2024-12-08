@@ -7,6 +7,6 @@ Our website aims to provide a space where people of dietary restrictions such as
 
 ## Using our website: 
 1. Save this code to your own computer 
-2. In your terminal where your code is type ```npm install```
+2. In your terminal, where your code is, type ```npm install```
 3. Then type ```npm start```
 4. Finally, in your web browser type ```localhost:3000```
