@@ -64,23 +64,36 @@ router.route('/:searchTerm')
             const searchTerm = req.params.searchTerm.trim().toLowerCase();
             const recipes = await loadRecipes();
 
+            // Get allergens and cuisines for the sidebar
+            const allergens = recipeFunc.getSortedAllergyFrequencies(recipes);
+            const cuisines = recipeFunc.getSortedPlaceFrequencies(recipes);
+
             // Filter recipes where the recipe name contains the search term
             const filteredRecipes = recipes.filter(recipe =>
                 recipe.recipeName.toLowerCase().includes(searchTerm)
             );
 
-            // Get allergens and cuisines for the sidebar
-            const allergens = recipeFunc.getSortedAllergyFrequencies(recipes);
-            const cuisines = recipeFunc.getSortedPlaceFrequencies(recipes);
+            // Check if there are any recipe name that contains the search term
+            if (filteredRecipes.length === 0){
+                return res.render('browse', {
+                    pageTitle: "Search",
+                    recipetypes: `No recipes found for "${req.params.searchTerm}"`,
+                    recipes: [],
+                    allergens,
+                    cuisines
+                });
+            }
+            else{
+                // Render the browse view with the filtered recipes
+                res.render('browse', {
+                    pageTitle: "Search",
+                    recipetypes: `Search Results for "${req.params.searchTerm}"`,
+                    recipes: filteredRecipes,
+                    allergens,
+                    cuisines
+                });
+            }
 
-            // Render the browse view with the filtered recipes
-            res.render('browse', {
-                pageTitle: "Search",
-                recipetypes: `Search Results for "${req.params.searchTerm}"`,
-                recipes: filteredRecipes,
-                allergens,
-                cuisines
-            });
         } catch (e) {
             console.error(e);
             res.status(500).json({ error: 'Internal server error' });
